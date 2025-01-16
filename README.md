@@ -14,7 +14,7 @@ Ce projet a pour objectif de créer une **application client-serveur en Java** p
 
 ### **Gestion des utilisateurs :**
 - Le serveur peut gérer jusqu'à **4 utilisateurs** 👥.
-- Chaque utilisateur est identifié par un **email** et un **mot de passe en clair** 🔑.
+- Chaque utilisateur est identifié par un **nom d'utilisateur** et un **mot de passe** 🔑.
 
 ### **Messagerie :**
 - Les utilisateurs peuvent échanger des messages en **temps réel** ou en **mode boîte à lettres** 📨.
@@ -38,7 +38,7 @@ Ce projet a pour objectif de créer une **application client-serveur en Java** p
 ## 🖥️ Fonctionnement du serveur
 
 - Le serveur écoute sur le **port UDP 3333** pour recevoir les messages des clients.
-- Les données sont stockées en **mémoire vive (RAM)** 💾 (aucune persistance des données en cas de redémarrage).
+- Les données sont stockées en **RAM** 💾.
 - Les commandes principales sont :
   - Envoi de message : `"message,login,ami,sujet,corps"`
   - Invitation à devenir ami : `"demande_ami,login,ami"`
